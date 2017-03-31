@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	
+	<title>Krzysztof Wawrzyniak</title>
+	
+	<meta name="description" content="Strona Krzysztofa Wawrzyniaka" />
+	<meta name="keywords" content="Krzysztof Wawrzyniak, CV, finanse, informatyka" />
+	
+	<!--Arkusz Stylu-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+	<!--Czcionki-->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato|Pacifico" rel="stylesheet">
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="header">
+		<div class="logo">
+			<img src="img/logo.png"/>
+		KW
+		</div>
+	
+	</div>
+	<div class="nav">
+	<ol>
+			<li><a href="index.html">Strona Główna</a></li>
+			<li><a href="o_mnie.html">O mnie </a></li>
+			<li><a href="cv.html">CV</a></li>
+			<li><a href="portfolio.html">Portfolio </a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="kontakt.html">Kontakt</a></li>
+		</ol>
+	
+	</div>
+	<div class="content">
+	<h1>Blog!</h1>
+			<p>Tutaj będę się dzielił swoimi odkryciami w informatyce i opisywał co u mnie</p>
+
+			
+	<div class="socials">
+		<div class="socialdivs">
+			<div class="In">
+			
+				<a target="_blank" href="https://www.linkedin.com/in/krzysztof-wawrzyniak-0394ab115?trk=nav_responsive_tab_profile"<i class="icon-LinkedIn"></i></a>
+			</div>
+			<div class="yt">
+				<a target="_blank" href="https://www.youtube.com/channel/UC1PAtyqrrm_VKIC6N1CGpeA"><i class="icon-youtube"></i></a>
+			</div>
+			<div class="tw">
+				<a target="_blank" href="https://twitter.com/KrzysztofWawr10"><i class="icon-twitter"></i></a>
+			</div>
+			<div class="GH">
+				
+				<a target="_blank" href="https://github.com/krzysztof-Wawrzyniak"><i class="icon-GitHub"></i></a>
+			</div>
+			<div style=clear:both"></div>
+		</div>
+	</div>
+	
+	
+	</div>
+	<div class="footer">
+	krzysztofwawrzyniak.pl &copy;
+	</div>
+	
+</div>	
+
+<script src="js/jquery-3.1.1.min.js"></script>
+	
+<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+</body>
+</html>

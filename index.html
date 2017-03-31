@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Krzysztof Wawrzyniak</title>
+	<meta name="description" content="Strona Krzysztofa Wawrzyniaka" /><meta name="keywords" content="Krzysztof Wawrzyniak, CV, finanse, informatyka" /><!--Arkusz Stylu-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" /><!--Czcionki-->
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lato|Pacifico" rel="stylesheet" />
+	<link href="css/fontello.css" rel="stylesheet" type="text/css" />
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92257523-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class="wrapper">
+<div class="header">
+<div class="logo"><img src="img/logo.png" /> KW</div>
+</div>
+
+<div class="nav">
+<ol>
+	<li><a href="index.html">Strona Gł&oacute;wna</a></li>
+	<li><a href="o_mnie.html">O mnie </a></li>
+	<li><a href="cv.html">CV</a></li>
+	<li><a href="portfolio.html">Portfolio </a></li>
+	<li><a href="blog.html">Blog</a></li>
+	<li><a href="kontakt.html">Kontakt</a></li>
+</ol>
+</div>
+
+<div class="content">
+<h1>Witaj na mojej stronie!</h1>
+
+<p>Nazywam się Krzysztof Wawrzyniak i chciałem Ci przybliżyć swoją osobę. Pomimo faktu, że szczeg&oacute;lnie cenię sobie prywatność i dyskrecję, postanowiłem na tej stronie zamieścić dość dużo informacji na sw&oacute;j temat. Jest to swojego rodzaju strona wizyt&oacute;wka, abyście mogli mnie poznać.</p>
+
+<p>Obecenie jeśli chodzi o portale społecznościowe to jestem obecny na &quot;LinkedIn&quot;, żeby promować się zawodowo oraz w serwisach kt&oacute;re są częścią mojej pasji jaką jest informatyka: &quot;GitHub&quot;, &quot;Stackoverflow&quot;. Nie ma mnie na Facebooku, ponieważ dzięki temu czuję się szczęścliwszym człowiekiem.</p>
+
+<p>Zawsze bałem się informatyki, ponieważ zakorzeniło się w mojej świadomości, że jest to porozumiewanie się z komputerem za pomocą systemu dw&oacute;jkowego (zer i jedynek). Jednakże dzięki &quot;Mirosławi Zelentowi&quot; przekonałem się że nie jest to fizyka kwantowa, a wręcz dobra zabawa, przy rozwiązywaniu konkretnych problem&oacute;w i łamigł&oacute;wek.</p>
+
+<p>Od kiedy odkryłem że nie taki diabeł straszny jak go sobie malowałem postanowiłem nauczyć się programowania i tutaj zamierzam prezentować swoje osiągnięcia w tym zakresie.</p>
+
+<p>Mam nadzieję, że uznasz prezentowane przeze mnie treści za pomocne.</p>
+
+<p>Dlatego zapraszam Cię do wsp&oacute;lnej przygody z programowaniem. Będę bardzo zobowiązany za wszelkie sugestie i tzw. &quot;feedback&quot;</p>
+
+<p>Jeśli chcielibyście zostawić mi jakąś informację proszę skorzystajcie z formularza w zakładce Kontakt lub wyślijcie na maila</p>
+
+<h2>ZAPRASZAM DO ZAPOZNANIA SIĘ Z MOJĄ STRONĄ!</h2>
+
+<div class="socials">
+<div class="socialdivs">
+<div class="In"></div>
+
+<div class="yt"></div>
+
+<div class="tw"></div>
+
+<div class="GH"></div>
+
+<div style="clear:both&quot;"></div>
+</div>
+</div>
+</div>
+
+<div class="footer">krzysztofwawrzyniak.pl &copy;</div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script><script>
+
+	$(document).ready(function() {
+	var NavY = $('.nav').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nav').addClass('sticky');
+	} else {
+		$('.nav').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script></body>
+</html>
